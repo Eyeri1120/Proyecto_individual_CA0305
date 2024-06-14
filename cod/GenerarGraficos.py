@@ -243,7 +243,7 @@ class GenerarGraficos:
                 
                 nombre_x = variable_x
                 
-                if frecuencia:
+                if frecuencia or not variable_y:
                     
                     nombre_y = 'count'
                 
@@ -255,7 +255,7 @@ class GenerarGraficos:
                 
                 nombre_x = nombres_ejes[0]
                 
-                if frecuencia:
+                if frecuencia or not variable_y:
                     
                     nombre_y = 'Frecuencia'
                     
@@ -399,7 +399,7 @@ class GenerarGraficos:
                 
                 nombre_x = variable_x
                 
-                if frecuencia:
+                if frecuencia or not variable_y:
                     
                     nombre_y = 'count'
                 
@@ -411,7 +411,7 @@ class GenerarGraficos:
                 
                 nombre_x = nombres_ejes[0]
                 
-                if frecuencia:
+                if frecuencia or not variable_y:
                     
                     nombre_y = 'Frecuencia'
                 
@@ -572,7 +572,7 @@ class GenerarGraficos:
                 
                 nombre_x = variable_x
                 
-                if frecuencia:
+                if frecuencia or not variable_y:
                     
                     nombre_y = 'count'
                 
@@ -585,7 +585,7 @@ class GenerarGraficos:
                 
                 nombre_x = nombres_ejes[0]
                 
-                if frecuencia:
+                if frecuencia or not variable_y:
                     
                     nombre_y = 'Frecuencia'
                 
@@ -783,7 +783,7 @@ class GenerarGraficos:
                 
                 nombre_x = variable_x
                 
-                if frecuencia:
+                if frecuencia or not variable_y:
                     
                     nombre_y = 'count'
                     
@@ -795,7 +795,7 @@ class GenerarGraficos:
                 
                 nombre_x = nombres_ejes[0]
                 
-                if frecuencia:
+                if frecuencia or not variable_y:
                     
                     nombre_y = 'Frecuencia'
                     
